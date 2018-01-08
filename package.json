@@ -1,0 +1,13 @@
+{
+  "name": "Marx",
+  "version": "1.0.0",
+  "description": "Communist",
+  "main": "minecraft-bot.js",
+  "author": "Aaron Schoots",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.2.1",
+    "request": "^2.83.0",
+    "winston": "^2.4.0"
+  }
+}
