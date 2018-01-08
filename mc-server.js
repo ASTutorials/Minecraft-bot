@@ -13,10 +13,10 @@ client.on('message', message => {
         request(url, function(err, response, body) {
             if(err) {
                 console.log(err);
-                return message.reply('Error getting Minecraft server status...');
+                return message.reply('Aaron doet ook nooit wat goed');
             }
             body = JSON.parse(body);
-            var status = '*Minecraft server is currently offline*';
+            var status = '**Marx\'s true legacy is offline**  ';
             if(body.online) {
                 status = '**Marx\'s true legacy is online**  ';
                 
